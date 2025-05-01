@@ -52,3 +52,18 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+.toc {
+  padding: 1rem;
+  border-top: none;
+  border-bottom: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 2rem;
+}
+.toc h2 {
+  margin-top: 0;
+}
+.toc ul {
+  list-style: inside disc;
+}
